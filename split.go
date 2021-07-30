@@ -60,11 +60,17 @@ func main()  {
 
 	println()
 	fmt.Println(strings.Trim("Toluwase", " "))
+	//fmt.Println(fizzBuzz(10))
+	x:=fizzBuzz
+	x(50)
+
+
+
 }
 
-func fizzBuzz(n int32) {
+func fizzBuzz(n int32) string {
 	// Write your code here
-	for i:=0; i<len(n); i++ {
+	for i:=int32(0); i<n; i++ {
 		if i%3==0 && i%5==0 {
 			println("FizzBuzz")
 		} else if i%3==0 && i%5==1 {
@@ -75,5 +81,5 @@ func fizzBuzz(n int32) {
 			println(i)
 		}
 	}
-
+ return string(n)
 }

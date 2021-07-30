@@ -15,6 +15,6 @@ func main() {
 
 //func toUpper(s string) string  {
 //	for i:=0; i< len(s); i++ {
-//
+//s:= 12
 //	}
 //}
