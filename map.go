@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 )
-
+//decagonedo: Coding@edo123
 func main()  {
 	rot13 := func(r rune) rune {
 		switch {
@@ -18,6 +18,6 @@ func main()  {
 	//abc := "wertyu"
 	fmt.Println(rot13(700000))
 	fmt.Println(strings.Map(rot13, "'Twas brillig and the slithy gopher..."))
-
-
 }
+//length
+//123	321
